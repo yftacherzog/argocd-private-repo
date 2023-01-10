@@ -5,7 +5,7 @@ metadata:
     app: hello-app
   name: hello-deployment
   annotations:
-    link.argocd.argoproj.io/external-link: https://hub.docker.com/repository/docker/yftacherzog/hello-app:v1
+    link.argocd.argoproj.io/external-link: https://hub.docker.com/repository/docker/yftacherzog/hello-app
 spec:
   selector:
     matchLabels:
